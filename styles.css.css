@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+}
+
+
+.background-customizado {
+    background-color: rgba(135, 206, 235, 0.8); 
+    background-image: url('imagem.jpg'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-blend-mode: multiply; 
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.espaco-extra {
+    height: 800px;
+}
